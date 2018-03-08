@@ -1,1 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="repository.tvone" name="[B]TvOne[/B]" version="1.0" provider-name="Optimum Bliss">
+	<extension point="xbmc.addon.repository" name="TvOne">
+		<info compressed="false">https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/</datadir>
+	</extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">TvOne</summary>
+		<description lang="en">Visit Optimum Bliss Youtube Channel andsubscribe for free streaming solution!</description>
+		<platform>all</platform>
+		 
+	  </extension>
+	</addon>
 
+	<addon id="plugin.video.tvone" name="tvOne" version="9" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+	</addon>
+	
+	<addon id="plugin.video.tvone1111" name="tvOne1111" version="5" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+</addons>
